@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -eu
+
+if command -v agentic-scaffold >/dev/null 2>&1; then
+  exec agentic-scaffold "$@"
+fi
+
+exec python3 -m agentic_scaffold "$@"

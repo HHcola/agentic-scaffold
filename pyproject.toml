@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-scaffold"
+version = "0.1.0"
+description = "A tool-agnostic delivery scaffold for AI-assisted software engineering."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Agentic Scaffold Contributors" },
+]
+keywords = [
+  "ai",
+  "agents",
+  "software-engineering",
+  "workflow",
+  "scaffold",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: Software Development :: Documentation",
+]
+
+[project.urls]
+Homepage = "https://github.com/HHcola/agentic-scaffold"
+Issues = "https://github.com/HHcola/agentic-scaffold/issues"
+
+[project.scripts]
+agentic-scaffold = "agentic_scaffold.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agentic_scaffold*"]
+
+[tool.setuptools.package-data]
+agentic_scaffold = ["templates/**/*"]

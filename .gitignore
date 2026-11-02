@@ -1,0 +1,40 @@
+# Local delivery evidence
+work/*
+!work/.gitkeep
+!work/dashboard.html
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.mcp.json
+.claude/settings.local.json
+**/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# JavaScript
+node_modules/
+.next/
+.nuxt/
+dist/
+coverage/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp

@@ -1,0 +1,19 @@
+{
+  "_comment": "复制为 .mcp.json 并填入你自己的凭据；.mcp.json 已被 Git 忽略。",
+  "mcpServers": {
+    "project-tracker": {
+      "type": "http",
+      "url": "https://your-project-tracker.example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <YOUR_TOKEN>"
+      }
+    },
+    "documentation": {
+      "type": "http",
+      "url": "https://your-docs.example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <YOUR_TOKEN>"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "Agentic Scaffold",
+    "slug": "agentic-scaffold",
+    "description": "A tool-agnostic delivery scaffold for AI-assisted software engineering.",
+    "primaryStack": "Python 3.10+"
+  },
+  "language": "zh-CN",
+  "workflow": {
+    "version": "1.0",
+    "taskRoot": "work",
+    "states": [
+      "INTAKE",
+      "DISCOVERY",
+      "DESIGN",
+      "IMPLEMENTATION",
+      "REVIEW",
+      "VERIFICATION",
+      "RELEASE",
+      "DONE",
+      "BLOCKED",
+      "CANCELLED"
+    ]
+  },
+  "roles": [
+    "orchestrator",
+    "product",
+    "architect",
+    "developer",
+    "reviewer",
+    "qa",
+    "release"
+  ],
+  "adapters": [
+    "codex",
+    "claude",
+    "cursor",
+    "copilot"
+  ],
+  "createdAt": "2026-11-03T00:20+08:00"
+}

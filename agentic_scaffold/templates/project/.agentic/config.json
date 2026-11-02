@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "{{PROJECT_NAME}}",
+    "slug": "{{PROJECT_SLUG}}",
+    "description": "{{PROJECT_DESCRIPTION}}",
+    "primaryStack": "{{PRIMARY_STACK}}"
+  },
+  "language": "{{LANGUAGE}}",
+  "workflow": {
+    "version": "1.0",
+    "taskRoot": "work",
+    "states": [
+      "INTAKE",
+      "DISCOVERY",
+      "DESIGN",
+      "IMPLEMENTATION",
+      "REVIEW",
+      "VERIFICATION",
+      "RELEASE",
+      "DONE",
+      "BLOCKED",
+      "CANCELLED"
+    ]
+  },
+  "roles": [
+    "orchestrator",
+    "product",
+    "architect",
+    "developer",
+    "reviewer",
+    "qa",
+    "release"
+  ],
+  "adapters": [
+    "codex",
+    "claude",
+    "cursor",
+    "copilot"
+  ],
+  "createdAt": "{{CREATED_AT}}"
+}

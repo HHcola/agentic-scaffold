@@ -1,0 +1,16 @@
+---
+description: Agentic Scaffold delivery rules
+alwaysApply: true
+---
+
+# Agentic Scaffold
+
+开始非平凡任务前读取 `AGENTS.md`、`agents/shared/PRINCIPLES.md`、
+`agents/ORCHESTRATION.md` 和 `context/project/OVERVIEW.md`。
+
+- 使用 `agentic-scaffold task` 管理任务状态。
+- 在对应阶段写入 `brief.md`、`design.md`、`implementation.md`、
+  `review.md`、`verification.md` 和 `release.md`。
+- 不虚构命令结果、评审结论或验证证据。
+- 不泄露密钥、内部地址、客户数据或个人配置。
+- 只把经过验证的可复用知识提炼到 `context/`。
